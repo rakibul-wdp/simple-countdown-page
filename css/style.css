@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+
 .body-width {
+  font-family: 'Gentium Book Plus', serif;
   width: 70vw;
   margin: auto;
 }
@@ -31,10 +34,11 @@
   margin-left: -28px;
 }
 .contact-list {
-  width: 15px;
-  height: 20px;
-  margin-bottom: 7px;
-  padding-left: 6px;
+  width: 16px;
+  height: 23px;
+  margin-bottom: 6px;
+  padding-bottom: 2px;
+  padding-left: 9px;
   list-style-type: none;
   border: 2px solid #b3a88c;
   border-radius: 50%;
@@ -56,3 +60,19 @@
   margin: 0 auto;
 }
 /* middle section style end here */
+
+/* last section style start here */
+.last-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+.last-section-text {
+  width: 20rem;
+}
+.last-section-para {
+  text-align: center;
+}
+/* last section style end here */
