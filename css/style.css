@@ -8,8 +8,9 @@
   grid-template-columns: repeat(3, 1fr);
   margin-top: 3rem;
 }
-.first-section-number {
+.number {
   width: 15rem;
+  color: #b3a88c;
   font-size: 7rem;
   margin: 0 auto;
 }
@@ -39,3 +40,19 @@
   border-radius: 50%;
 }
 /* first section style end here */
+
+/* middle section style start here */
+.middle-section-container {
+  text-align: center;
+}
+.middle-section-number {
+  color: #b3a88c;
+  font-size: 7rem;
+  margin: 1rem 0 0.5rem 0;
+}
+.middle-section-para {
+  width: 12rem;
+  text-align: justify;
+  margin: 0 auto;
+}
+/* middle section style end here */
