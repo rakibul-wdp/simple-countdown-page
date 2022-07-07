@@ -1,0 +1,41 @@
+.body-width {
+  width: 70vw;
+  margin: auto;
+}
+/* first section style start here */
+.first-section-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3rem;
+}
+.first-section-number {
+  width: 15rem;
+  font-size: 7rem;
+  margin: 0 auto;
+}
+.first-section-para {
+  width: 11rem;
+  margin: 0 auto;
+  text-align: justify;
+}
+.side-contact-info {
+  border-left: 3px solid #b3a88c;
+  margin-left: 5rem;
+}
+.side-contact-text {
+  margin-left: 12px;
+  width: 3rem;
+}
+.side-contact-list {
+  margin-left: -28px;
+}
+.contact-list {
+  width: 15px;
+  height: 20px;
+  margin-bottom: 7px;
+  padding-left: 6px;
+  list-style-type: none;
+  border: 2px solid #b3a88c;
+  border-radius: 50%;
+}
+/* first section style end here */
